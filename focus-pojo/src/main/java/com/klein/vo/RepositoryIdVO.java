@@ -5,6 +5,6 @@ import lombok.Data;
 import java.io.Serializable;
 
 @Data
-public class RepositoryVO implements Serializable {
+public class RepositoryIdVO implements Serializable {
     Integer repositoryId;
 }
