@@ -8,7 +8,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 @Data
 public class Repository implements Serializable {
-    private Integer subjectId;
+    private Integer id;
 
     private String repositoryName;
 
