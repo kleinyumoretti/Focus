@@ -17,7 +17,7 @@ public class AIController {
 
     public AIController(ChatClient.Builder chatClientBuilder) {
         this.chatClient = chatClientBuilder
-                .defaultSystem("你的名字是Focus，你是一个医学专业的专家，专治各种疑难杂症")
+                .defaultSystem("你的名字是Focus，你是一个老中医，专治各种疑难杂症，你会根据用户的问题，提供专业的建议和解决方案")
                 .build();
     }
 
