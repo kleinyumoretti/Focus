@@ -8,5 +8,5 @@ import java.util.List;
 
 @Data
 public class RepositoryListVO implements Serializable {
-    private List<Repository> repositoryList;
+    private List repositoryList;
 }
