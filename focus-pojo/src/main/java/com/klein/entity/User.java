@@ -10,4 +10,7 @@ public class User implements Serializable {
     private Integer id;
     private String username;
     private String token;
+    private String password;
+    private String name;
+    private Integer selectId;
 }
