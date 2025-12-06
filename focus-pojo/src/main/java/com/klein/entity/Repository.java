@@ -15,4 +15,6 @@ public class Repository implements Serializable {
     private String description;
 
     private Integer userId;
+
+    private Integer mode=0;
 }

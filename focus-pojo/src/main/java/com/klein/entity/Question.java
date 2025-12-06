@@ -6,10 +6,9 @@ import java.io.Serializable;
 
 @Data
 public class Question implements Serializable {
-    private Integer id;
-    private Integer questionId;
-    private String question;
-    private String answer;
-    private Integer userId;
-    private Integer subjectId;
+    private Integer id;          // 题目ID
+    private String topic;        // 题干
+    private Character answer;    // 正确答案
+    private String options;      // 选项（逗号分隔）
+    private Integer repositoryId;// 所属题库ID
 }
