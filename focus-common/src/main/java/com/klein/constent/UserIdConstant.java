@@ -1,5 +1,5 @@
 package com.klein.constent;
 
 public class UserIdConstant {
-    public static final Integer USER_ID = 1;
+    public static ThreadLocal<Integer> UserId = new ThreadLocal<>();
 }
