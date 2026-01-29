@@ -15,4 +15,5 @@ public class User implements Serializable {
     private String name;
     private Integer selectId;
     private LocalDateTime createTime;
+    private String access;
 }
